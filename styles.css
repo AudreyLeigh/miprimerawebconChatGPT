@@ -1,0 +1,85 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Color de fondo */
+    color: #333; /* Color de texto */
+}
+
+header, footer {
+    background-color: #ffcccc; /* Color de fondo del encabezado y pie de página */
+    padding: 20px;
+    text-align: center;
+}
+
+header img{
+    width: 10em;
+}
+
+section {
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+header h1 {
+    color: #336699; /* Color de título */
+}
+
+.ofrece{
+    background-color: plum;
+}
+
+.Destacados{
+    background-color: crimson;
+}
+
+/* Estilos para la sección de productos destacados */
+section:nth-child(2) {
+    display: flex;
+    justify-content: space-around;
+}
+
+section:nth-child(2) div {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #ffddcc; /* Color de fondo de cada tarjeta de producto */
+    border-radius: 10px;
+}
+
+/* Estilos para la sección de beneficios */
+section:nth-child(3) ul {
+    list-style-type: none;
+}
+
+/* Estilos para el botón de pedido */
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #336699; /* Color de fondo del botón */
+    color: #fff; /* Color de texto del botón */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #204060; /* Color de fondo del botón al pasar el ratón */
+}
+
+/* Estilos para el pie de página */
+footer p {
+    margin: 5px 0;
+}
+
+/* Estilos para los enlaces de redes sociales */
+footer a {
+    color: #336699; /* Color de los enlaces */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #204060; /* Color de los enlaces al pasar el ratón */
+}
